@@ -27,6 +27,8 @@ def prime_factors(number, i = 2, primes = [])
   end
 end
 
+#THIS REFACTORING IS UNFINISHED - WORKS FOR EVERYTHING EXCEPT THE SQUARES OF PRIMES
+
 # def prime_factors(number, i = 2, primes = [])
 #   prime_factors(number, i + 1, primes) unless is_prime?(i)
 #   if number % i == 0
